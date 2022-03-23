@@ -1,0 +1,210 @@
+* {
+  box-sizing: border-box;
+  font-family: "Helvetica", "Roboto", "Times New Roman", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.header-section {
+  background-color: red;
+  width: auto;
+  height: auto;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 18% 0 18%;
+  padding-top: 1.3em;
+}
+.logo {
+  flex: 1;
+}
+#logo-img {
+  max-width: 6em;
+  min-width: 4.5em;
+  height: auto;
+}
+.header-links {
+  display: flex;
+  gap: 2em;
+  align-self: center;
+  margin-right: 1em;
+}
+.header-links a {
+  text-decoration: none;
+  color: beige;
+  font-size: larger;
+  font-weight: bolder;
+}
+.header-links a:hover {
+  text-decoration: underline;
+}
+.header-links li {
+  list-style: none;
+}
+.hero {
+  margin: 0 18% 0 18%;
+  padding: 4em 0;
+  display: flex;
+  background-color: red;
+  gap: 1em;
+}
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex: 1;
+}
+.hero-text h1 {
+  font-size: 3em;
+  color: beige;
+  margin-bottom: 0.4em;
+}
+.hero-text p {
+  color: beige;
+  margin-bottom: 0.8em;
+  font-size: 2em;
+  flex-wrap: wrap;
+}
+
+.hero-btn {
+  background-color: beige;
+  height: 2.5em;
+  width: 8em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0.05em solid red;
+  border-radius: 0.7em;
+  color: red;
+  text-decoration: none;
+  font-size: 1.5em;
+  font-weight: 600;
+}
+.hero-btn:hover {
+  background-color: red;
+  color: beige;
+  border-color: beige;
+}
+.hero-right {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+#hero-img {
+  width: 100%;
+  height: auto;
+  flex: 1;
+  align-self: center;
+  justify-self: center;
+  border: solid beige;
+}
+
+.fondue-basics {
+  display: flex;
+  flex-direction: column;
+  margin: 0 18% 0 18%;
+  padding: 4em 0;
+}
+.fondue-basics h2 {
+  color: red;
+  align-self: center;
+  font-size: 2em;
+  margin-bottom: 1.25em;
+}
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 1em;
+  margin-bottom: 3em;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 200px;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: red;
+  border-radius: 1em;
+}
+.card-img img {
+  height: 220px;
+  width: 200px;
+  border-radius: 1em;
+}
+.card p {
+  color: beige;
+  padding: 1.2em;
+}
+
+.quote {
+  background-color: red;
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.quote-content {
+  margin: 0 18% 0 18%;
+  padding: 2.5em 0;
+  display: flex;
+  flex-direction: column;
+}
+.quote-content .quote-text {
+  font-size: 2em;
+  font-style: italic;
+  color: beige;
+}
+.quote-author {
+  align-self: flex-end;
+  color: beige;
+  font-size: large;
+}
+
+.cta {
+  margin: 0 18% 0 18%;
+}
+.cta-content {
+  margin: 6em 0;
+  padding: 4em;
+  display: flex;
+  justify-content: space-between;
+  background-color: red;
+  color: beige;
+  align-items: center;
+}
+.cta-headline {
+  font-size: 2.2em;
+  font-weight: 600;
+  margin-bottom: 0.3em;
+}
+.cta p {
+  font-size: 01em;
+}
+.cta-btn {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  text-align: center;
+}
+.cta-btn a {
+  text-decoration: none;
+  color: red;
+  background-color: beige;
+  padding: 1em;
+  width: 12em;
+  font-weight: bold;
+  border: 0.5em solid red;
+  border-radius: 1em;
+}
+.cta-btn a:hover {
+  background-color: red;
+  color: beige;
+  border-color: beige;
+}
