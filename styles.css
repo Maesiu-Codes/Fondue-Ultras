@@ -20,7 +20,7 @@
   flex: 1;
 }
 #logo-img {
-  max-width: 6em;
+  max-width: 8em;
   min-width: 4.5em;
   height: auto;
 }
@@ -70,12 +70,12 @@
 
 .hero-btn {
   background-color: beige;
-  height: 2.5em;
+  height: 2.9em;
   width: 8em;
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 0.05em solid red;
+  border: 0.3em solid red;
   border-radius: 0.7em;
   color: red;
   text-decoration: none;
