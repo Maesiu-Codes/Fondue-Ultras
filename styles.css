@@ -186,7 +186,7 @@
   align-items: center;
 }
 .cta-headline {
-  font-size: clamp(1.5rem, 4vw, 3rem);
+  font-size: clamp(2rem, 4vw, 3rem);
   font-weight: 600;
   margin-bottom: 0.3em;
 }
